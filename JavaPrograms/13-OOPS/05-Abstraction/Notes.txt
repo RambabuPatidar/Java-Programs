@@ -1,0 +1,16 @@
+    # if we have one or more than one abstract method in a class then that class
+      also must be abstract type.
+    # And whoever is the subclass of this class the abstract method must be override
+      this class abstract methods
+    # we use abstract method when we want the subclass to define the body as per their
+      requirement and we surely know that this methode should be there in the subclass.
+    # we can include instance variable in abstract class.
+    # we can also have constructor in abstract class.
+    # we can have static methods in abstract classes.
+
+    # abstract Parent(int age); // abstract constructor are not allowed
+
+    abstract static void hello();
+
+    # abstract static method are not allowed because static method can't
+      be overridden and on the other hand abstract class must be overridden.

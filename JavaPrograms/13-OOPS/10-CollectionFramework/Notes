@@ -1,0 +1,29 @@
+Collection frameworks are nothing just the combination of interfaces, classes in
+different way the diagram of the collection framework can be found here
+
+// https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fcdn-uploads%2F20220526152255%2FCollections-in-Java1.png&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcollections-in-java-2%2F&tbnid=iGInJM2svcHeKM&vet=12ahUKEwjyw4nkuub5AhUgyaACHUN_DC0QMygFegUIARDHAQ..i&docid=3BVdKqLWDC0uxM&w=1000&h=430&q=collection%20framework%20diagram%20in%20java&ved=2ahUKEwjyw4nkuub5AhUgyaACHUN_DC0QMygFegUIARDHAQ
+
+We needed collection frameworks as to reduce the code written for the
+different data structure individually.
+so with collection framework the methods or the variable and the things that
+are common to some data structure are stored where all these can access according
+to their uses.
+
+for example: we have different types of list in java arraylist, vector, linked list,etc.
+and they all have something common like add data, remove data, size , isEmpty , etc.
+so the interface is created that is declaring all these in abstract from
+and the individual class of this data structures are implementing them as they
+require it by overriding that abstract thing from interface. which we already learned
+that how the overriding happens.
+
+yes that is it. that is why we use collection framework.
+_____________________________________________________________________________
+
+vector class : it is similar to the arraylist we are using. the key difference
+            is that vector does not support multithreading access(synchronize) while arraylist does.
+            that means vector can not be accessed by multiple thread at a time.
+            if one thread is accessing the data of the vector and another wants
+             to access it must wait until the first will not complete its task.
+             but arraylist can have access to multiple threads (non-synchronize).
+
+             that's the reason that the arraylist are much faster than vectors.

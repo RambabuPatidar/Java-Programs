@@ -1,0 +1,24 @@
+Question : why do we need cloning?
+Answer : we can copy the object using the constructor of the class and passing the
+        object into it. But we are using a new keyword to do that and new keyword
+        work at the runtime so this is the overhead and inefficient method. that's why we
+        use cloning.
+
+        cloning interface doesn't have anything in that but we implement that to make sure JVM
+        knows that we are using clone() inside the class. so that the CloneNotSupportedException
+        will not be thrown.
+
+
+One thing to remember is that cloning in this way creat shallow copy of the object.
+
+Shallow copy:
+        it means that the whatever the primitives present in the object will be copied into the new one
+        and can be modified. but the non-primitives(objects) inside the object will not be copied
+        the reference variable of the cloned object will still point to the same object as previous one.
+        that means we can make changes in them via the original object.
+
+Deep Copy:
+        This means that when we clone an object then the cloned object should have all the member of its own
+        that are cloned and none of this cloned object variable should point to the clone objects.
+        i.e. it will have all its objects and primitives independent of the object from which it is cloned.
+        and that means that now if we will change this new object the changes were not reflected to the one from which it is cloned.

@@ -1,0 +1,24 @@
+Question : what are class(static) variable?
+# Class variables also known as static variables are declared with the static
+  keyword in a class, but outside a method, constructor or a block.
+# Static variables are created when the program starts and destroyed when the
+  program stops.
+# Static variables can be accessed by calling with the class name ClassName.
+  VariableName.
+# There would only be one copy of each class variable per class, regardless of how
+  many objects are created from it.
+
+
+
+Question: what are the instance variables?
+# Instance variables are created when an object is created with the use of the
+  keyword 'new' and destroyed when the object is destroyed.
+# Instance variables can be accessed directly by calling the variable name inside
+  the class. However, within static methods (when instance variables are given
+  accessibility), they should be called using the fully qualified name.
+  ObjectReference.VariableName.
+# Instance variables are declared in a class, but outside a method, constructor or
+  any block.
+#Instance variables hold values that must be referenced by more than one method,
+ constructor or block, or essential parts of an object's state that must be
+ present throughout the class.

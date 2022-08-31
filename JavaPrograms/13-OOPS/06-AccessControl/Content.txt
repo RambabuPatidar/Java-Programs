@@ -1,0 +1,47 @@
+In this Video we are mainly learning about the access specifier.
+
+four types of access specifier:
+
+Private: Can only be used in the same file. Not anywhere else.
+
+Protected: Can be used inside the package however we want. and outside the package
+            can only be used in the subclass.
+
+No specifier: can be used in the package as we want. but not outside the package.
+
+Public : anywhere in the world we can use it as we want.
+
+________________________________________
+
+more about packages:
+
+In-Built packages:
+
+lang package:
+io package:
+util package:
+// the above are of to be concern
+
+// this below are not necessary until we have work in specific domain
+see in the video remaining.
+applet package:
+
+.
+
+Object class method that can be overridden.
+like:
+
+
+toString();
+finalizer();
+hashcode();
+clone();
+equals();
+
+
+_____________________+_______________________
+
+System.out.println(objectName instanceof className);
+return boolean value depending that the object is instance or not of the class provided.
+
+

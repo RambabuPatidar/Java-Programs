@@ -1,0 +1,41 @@
+# throws keyword is used because if the function may have possibility of throwing exception.
+# throw keyword actually throw exception when it is use.
+# try keyword try the code given.
+# catch keyword catch the exception if the code have one.
+# finally keyword  will run no matter the exception is cached or not when the program is over.
+# we can put more than one catch keyword in sequence to find the different kind of exception.
+  and in the sequence we have to put subclasses of the Exception class first. because if we will put
+  Exception class in the first catch then it will automatically catch all type of error so the
+  below ones will never run.
+  for example:
+  this is illegal :
+
+          try{
+              body here
+          } catch (Throwable e) { // Throwable is the super class of all the below ones
+              System.out.println(e.getMessage());
+          } catch (Exception e) { // Exception is super class of the below ones and subclass of above
+              System.out.println(e.getMessage());
+          } catch (RuntimeException e) { // Obvious statement here looking at the above two.
+              System.out.println(e.getMessage());
+          } catch (ArithmeticException e) { // Obvious
+              System.out.println(e.getMessage());
+          } finally {
+              System.out.println("Program executed finally");
+          }
+
+But this is legal:
+
+        try{
+           throw new Throwable();
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmeticException is found");
+        } catch (RuntimeException e) {
+            System.out.println("RuntimeException is found");
+        } catch (Exception e) {
+            System.out.println("Exception is found");
+        } catch (Throwable e) {
+            System.out.println("Throwable is found");
+        } finally {
+            System.out.println("Program executed finally");
+        }
