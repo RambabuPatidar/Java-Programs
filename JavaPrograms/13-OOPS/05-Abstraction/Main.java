@@ -1,6 +1,7 @@
 package com.OOPS.Abstraction;
 // using abstract classes it doesn't mean that we can use multiple inheritance.
 // because abstract classes also support the normal classes, and two abstract classes can have a normal function of same type.
+// Then we are the same position where normal classes were.
 // so to do this we use interfaces.
 public class Main {
 
@@ -14,7 +15,7 @@ public class Main {
 //        daughter.career("Doctor");
 //        daughter.partner("Rambabu Patidar", 22);
 
-        // -we cannot create object of an abstract class like below statement
+        // -we cannot create object of an abstract class like line 24 in  below statement
         // this doesn't implies that we cann't use reference variable of type parent (abstract class)
         // definitely we can use. as we know that the object is only created when we call the constructor of the class through dynamic initialization.
         Parent object = new Daughter(22);
