@@ -1,4 +1,4 @@
-package com.Tree.BinaryTree.BinaryTreeQuestions;
+package com.Tree.BinaryTree.BinaryTreeQuestions.SumOfNodes;
 
 import java.util.Arrays;
 

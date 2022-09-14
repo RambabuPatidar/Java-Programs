@@ -1,23 +1,26 @@
-package com.Tree.BinaryTree.BinaryTreeQuestions;
+package com.Tree.BinaryTree.BinaryTreeQuestions.Traversals.Recursive;
 
-public class Height {
+public class NthNodeInPreorder {
     Node root;
 
-    public Height() {
+    public NthNodeInPreorder() {
     }
 
-    public int height(Node root) {
+    // to avoid the confusion do it with the iterative way which is easy.
+    static int n;
+    public void nthNode(Node root) {
         if (root == null) {
-            return 0;
+            return;
         }
-/*
-        int leftHeight = height(root.left);
-        int rightHeight = height(root.right);
-        return Math.max(leftHeight, rightHeight) + 1;
-*/
-        return Math.max(height(root.left), height(root.right)) + 1;
+        if (n >= 0) {
+            if (n == 0) {
+                System.out.println(root.data);
+            }
+            n--;
+            nthNode(root.left);
+            nthNode(root.right);
+        }
     }
-
     static class Node{
         private int data;
         public Node left;
@@ -39,7 +42,7 @@ public class Height {
 
     public static void main(String[] args) {
         // building the tree
-        Height tree = new Height();
+        NthNodeInPreorder tree = new NthNodeInPreorder();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
@@ -47,11 +50,8 @@ public class Height {
         tree.root.left.right = new Node(5);
         tree.root.right.left = new Node(6);
         tree.root.right.right = new Node(7);
-        tree.root.left.left.left = new Node(8);
-        tree.root.right.left.right = new Node(9);
-        tree.root.right.left.right.left = new Node(10);
-
         // Running the problem method
-        System.out.println(tree.height(tree.root));
+        n = 5;
+        tree.nthNode(tree.root);
     }
 }

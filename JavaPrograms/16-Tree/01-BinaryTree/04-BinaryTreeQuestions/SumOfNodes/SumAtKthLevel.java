@@ -1,8 +1,5 @@
-package com.Tree.BinaryTree.BinaryTreeQuestions;
+package com.Tree.BinaryTree.BinaryTreeQuestions.SumOfNodes;
 
-import com.Tree.BinaryTree.Traversals.Iterative.LevelOrder;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 

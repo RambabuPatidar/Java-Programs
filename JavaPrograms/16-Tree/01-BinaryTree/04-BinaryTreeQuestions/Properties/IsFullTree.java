@@ -1,30 +1,28 @@
-package com.Tree.BinaryTree.BinaryTreeQuestions;
+package com.Tree.BinaryTree.BinaryTreeQuestions.Properties;
 
-public class SumReplacement {
+public class IsFullTree {
     Node root;
 
-    public SumReplacement() {
+    public IsFullTree() {
     }
 
-    public void replaceSum(Node root) {
-        if (root.left == null || root.right == null) {
-            return;
-        }
-        replaceSum(root.left);
-        replaceSum(root.right);
-
-        root.data += root.left.data + root.right.data;
-    }
-
-    private void preorder(Node root) {
+    public boolean isFull(Node root) {
         if (root == null) {
-            return ;
+            return true;
         }
-        System.out.print(root.data + " ");
-        preorder(root.left);
-        preorder(root.right);
+        if (root.left == null && root.right == null) {
+            return true;
+        }
+        if (root.left != null && root.right != null) {
+/*
+            boolean isLeftFull = isFull(root.left);
+            boolean isRightFull = isFull(root.right);
+            return isLeftFull && isRightFull;
+*/
+            return isFull(root.left) && isFull(root.right);
+        }
+        return false;
     }
-
     static class Node{
         private int data;
         public Node left;
@@ -46,7 +44,7 @@ public class SumReplacement {
 
     public static void main(String[] args) {
         // building the tree
-        SumReplacement tree = new SumReplacement();
+        IsFullTree tree = new IsFullTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
@@ -55,9 +53,6 @@ public class SumReplacement {
         tree.root.right.left = new Node(6);
         tree.root.right.right = new Node(7);
         // Running the problem method
-
-        tree.replaceSum(tree.root);
-
-        tree.preorder(tree.root);
+        System.out.println(tree.isFull(tree.root));
     }
 }

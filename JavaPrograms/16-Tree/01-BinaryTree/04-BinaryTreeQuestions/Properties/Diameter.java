@@ -1,4 +1,4 @@
-package com.Tree.BinaryTree.BinaryTreeQuestions;
+package com.Tree.BinaryTree.BinaryTreeQuestions.Properties;
 
 public class Diameter extends Height{
 
