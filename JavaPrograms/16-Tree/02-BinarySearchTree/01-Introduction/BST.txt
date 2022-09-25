@@ -1,0 +1,28 @@
+So if you had already done Binary trees then BST is exactly
+similar to it only few difference are there and these difference contribute
+to have BSTs very good properties.
+
+The funda is simple:
+we will have a root node.
+we will have  left child for that node but condition is that the left child should
+    always be less than the root.
+we will have right child for the root node but condition is that the right child should
+be strictly greater than the root.
+
+and one more rule is that the above properties should also hold true for all
+the subtrees of the root.
+
+that is it... really yes.
+
+- BSTs will not have duplicate values.
+- BSTs inorder traversal array is sorted
+- BSTs do many task in O(h) average time complexity. worst case is O(n) when we have skewed tree
+
+
+And far more properties are there.
+
+example:                     6
+                           /   \
+                          3     9
+                        /   \  /  \
+                       1    4 8    12
