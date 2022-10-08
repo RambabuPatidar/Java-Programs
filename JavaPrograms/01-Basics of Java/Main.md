@@ -1,3 +1,11 @@
+# First Program in Java
+
+## Aim:
+To understand the structure of the Java [Boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) Code and Initialisation of the Primitive data type.
+
+## Code:
+
+```Java
 package com.BasicsOfJava;
 
 import java.util.Arrays;
@@ -29,3 +37,10 @@ public class Main {
 
     }
 }
+```
+<table>
+	<tr>
+		<th><a href="#"> &lt;&lt; prev</a> </th>
+		<th><a href="./EvenOdd.md">Check Even Odd &gt;&gt; </a> </th>
+   </tr>
+<table>
