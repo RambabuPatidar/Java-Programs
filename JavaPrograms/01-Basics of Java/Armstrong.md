@@ -4,13 +4,13 @@
 
 To print all the 3 digits Armstrong Numbers.
 
-## Important Definitation:
+## Important Definition:
 
 **Armstrong Number** : A number is a Armstrong number if the sum of the cubes it's digit is equal to the number itself. 
 
 ```
 For Example:
-    154 = 1*1*1 + 5*5*5 + 4*4*4
+    153 = 1*1*1 + 5*5*5 + 3*3*3
 ```
 
 ## Code:

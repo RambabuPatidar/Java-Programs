@@ -1,3 +1,14 @@
+
+# Some Random Question
+
+## Aim :
+
+No Aim This are random and just for fun.
+
+
+## Code:
+
+```Java
 package com.BasicsOfJava;
 
 import java.util.Scanner;
@@ -104,3 +115,15 @@ public class Revision {
 //        Arrays.fill(arr, 0);
 //    }
 }
+```
+
+<table>
+    <tr>
+        <th>
+            <a href="./CheckPrime.md">&lt;&lt; Check Prime Number</a>
+        </th>
+        <th>
+            <a href="../02-Arrays">02-Arrays &gt;&gt;</a>
+        </th>
+    </tr>
+<table>

@@ -1,3 +1,22 @@
+
+# Overloading Functions
+
+## Aim : 
+
+To learn how to overload a function, when does the methods get overload and when not.
+
+
+## Important Definitation:
+
+**Overloading** : In very simple words using the same function name for more than one times for different tasks, when some condition are applied. 
+
+## Resource:
+
+[Text](https://www.geeksforgeeks.org/method-overloading-in-java/)
+
+## Code:
+
+```Java
 package com.BasicsOfJava;
 
 import java.util.Scanner;
@@ -27,3 +46,15 @@ public class FunctionOverloading {
         return a+b+d;
     }
 }
+```
+
+<table>
+    <tr>
+        <th>
+            <a href="./VarArgs.md">&lt;&lt; Taking Variable Arguement</a>
+        </th>
+        <th>
+            <a href="./CheckPrime.md">Check Prime Number &gt;&gt;</a>
+        </th>
+    </tr>
+<table>
