@@ -1,3 +1,21 @@
+# Find Armstrong Numbers
+
+## Aim :
+
+To print all the 3 digits Armstrong Numbers.
+
+## Important Definitation:
+
+**Armstrong Number** : A number is a Armstrong number if the sum of the cubes it's digit is equal to the number itself. 
+
+```
+For Example:
+    154 = 1*1*1 + 5*5*5 + 4*4*4
+```
+
+## Code:
+
+```Java
 package com.BasicsOfJava;
 
 public class Armstrong {
@@ -25,3 +43,16 @@ public class Armstrong {
         }
     }
 }
+
+```
+
+<table>
+    <tr>
+        <th>
+            <a href="./EvenOdd.md">&lt;&lt; Even Odd</a>
+        </th>
+        <th>
+            <a href="./MaxMin.md">Maximum And Minimum &gt;&gt;</a>
+        </th>
+    </tr>
+<table>
