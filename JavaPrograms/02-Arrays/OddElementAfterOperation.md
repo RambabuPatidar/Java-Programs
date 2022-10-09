@@ -31,7 +31,10 @@ public class OddElementAfterOperation{
     public static void main(String[] args) {
         int k = 3;
         int m = 2, n = 3;
-        int indices[][] = {{0,1}, {1,1}};
+        int[][] indices = {
+                {0,1},
+                {1,1}
+            };
         int ans =  oddCells(m , n , indices);
         System.out.println(ans);
 //        allPermutation("", k);
