@@ -1,4 +1,3 @@
-
 # Questions Serial According to Increasing Level
 
 - Main `Variable Scope and Functions`
@@ -12,4 +11,4 @@
 - Revision `Previous Questions`
 
 
-### [START](./Main.md)
+### [START >>](./Main.md)
