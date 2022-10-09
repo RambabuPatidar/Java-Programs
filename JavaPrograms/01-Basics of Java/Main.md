@@ -38,9 +38,4 @@ public class Main {
     }
 }
 ```
-<table>
-	<tr>
-		<th><a href="#"> &lt;&lt; prev</a> </th>
-		<th><a href="./EvenOdd.md">Check Even Odd &gt;&gt; </a> </th>
-   </tr>
-<table>
+### [<< Question Serial According to Increasing Level](./00StartHere.md) | [Check Even Odd >>](./EvenOdd.md)

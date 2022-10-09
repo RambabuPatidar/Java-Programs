@@ -6,7 +6,7 @@
 To learn how to overload a function, when does the methods get overload and when not.
 
 
-## Important Definitation:
+## Important Definition:
 
 **Overloading** : In very simple words using the same function name for more than one times for different tasks, when some condition are applied. 
 
@@ -47,14 +47,4 @@ public class FunctionOverloading {
     }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./VarArgs.md">&lt;&lt; Taking Variable Arguement</a>
-        </th>
-        <th>
-            <a href="./CheckPrime.md">Check Prime Number &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Taking Variable Arguement](./VarArgs.md) | [Check Prime Number >>](./CheckPrime.md)

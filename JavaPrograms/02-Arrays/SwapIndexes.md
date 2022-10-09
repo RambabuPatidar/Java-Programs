@@ -1,3 +1,23 @@
+
+# Swap Numbers in Array
+
+## Aim :
+
+To interchange position of two numbers.
+
+
+```
+For Example:
+
+int arr[] = {1, 2, 3, 4, 5};
+
+swapping 2nd index and 4th index.
+
+int arr[] = {1, 2, 5, 4, 3};
+```
+## Code:
+
+```Java
 package com.Arrays;
 
 import java.util.Arrays;
@@ -30,3 +50,5 @@ public class SwapIndexes {
 
     }
 }
+```
+### [<< Intro to Arrays](./Array.md) | [Intro to Multi-Dimensional Array >>](./MultiDimensional.md)

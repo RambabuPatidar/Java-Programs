@@ -54,14 +54,4 @@ public class MaxMin {
     }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./Armstrong.md">&lt;&lt; Find Armstrong Numbers</a>
-        </th>
-        <th>
-            <a href="./Factorial.md">Factorial &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Find Armstrong Numbers](./Armstrong.md) | [Factorial >>](./Factorial.md)

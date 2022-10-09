@@ -32,9 +32,4 @@ public class EvenOdd {
     }
 }
 ```
-<table>
-	<tr>
-		<th><a href="./Main.md">&lt;&lt; First Program In Java</a> </th>
-		<th><a href="./Armstrong.md">Find Armstrong Numbers &gt;&gt;</a> </th>
-   </tr>
-<table>
+### [<< First Program In Java](./Main.md) | [Find Armstrong Numbers >>](./Armstrong.md)

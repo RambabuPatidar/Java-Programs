@@ -1,3 +1,23 @@
+
+# Array Of Strings
+
+## Aim :
+
+write here
+
+
+## Important Definition:
+
+**Definition01** : write here 
+
+```
+For Example:
+
+Example here
+```
+## Code:
+
+```Java
 package com.Arrays;
 
 import java.util.Scanner;
@@ -20,3 +40,5 @@ public class StringArray {
 
     }
 }
+```
+### [<< Multi Dimensional ArrayList in Java](./MultiArrayList.md) | [03-Linear Search >>](./03-Linear%20Search.md)

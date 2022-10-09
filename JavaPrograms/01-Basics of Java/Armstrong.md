@@ -45,14 +45,4 @@ public class Armstrong {
 }
 
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./EvenOdd.md">&lt;&lt; Even Odd</a>
-        </th>
-        <th>
-            <a href="./MaxMin.md">Maximum And Minimum &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Even Odd](./EvenOdd.md) | [Maximum And Minimum >>](./MaxMin.md)

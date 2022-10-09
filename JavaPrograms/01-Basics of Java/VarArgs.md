@@ -38,14 +38,4 @@ public class VarArgs {
     }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./Factorial.md">&lt;&lt; Find Factorial</a>
-        </th>
-        <th>
-            <a href="./FunctionOverloading.md">Overloading Functions &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Find Factorial](./Factorial.md) | [Overloading Functions >>](./FunctionOverloading.md)

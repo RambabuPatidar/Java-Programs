@@ -1,3 +1,23 @@
+
+# Multi Dimensional ArrayList in Java
+
+## Aim :
+
+write here
+
+
+## Important Definition:
+
+**Definition01** : write here 
+
+```
+For Example:
+
+Example here
+```
+## Code:
+
+```Java
 package com.Arrays;
 
 import java.util.ArrayList;
@@ -21,3 +41,5 @@ public class MultiArrayList {
 
     }
 }
+```
+### [<< Intro to ArrayList In Java](./ArrayListInJava.md) | [Array Of Strings >>](./StringArray.md)

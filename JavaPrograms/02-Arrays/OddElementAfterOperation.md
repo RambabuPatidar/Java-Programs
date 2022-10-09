@@ -1,3 +1,23 @@
+
+# Question (Odd Element After Operation)
+
+## Aim :
+
+write here
+
+
+## Important Definition:
+
+**Definition01** : write here 
+
+```
+For Example:
+
+Example here
+```
+## Code:
+
+```Java
 package com.Arrays
 
 /*
@@ -79,3 +99,6 @@ public class OddElementAfterOperation{
 
     }
 }
+```
+
+### [<< Intro To Multi-Dimensional Array](./MultiDimensional.md) | [Intro to ArrayList In Java >>](./ArrayListInJava.md)

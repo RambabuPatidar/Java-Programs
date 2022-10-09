@@ -116,14 +116,4 @@ public class Revision {
 //    }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./CheckPrime.md">&lt;&lt; Check Prime Number</a>
-        </th>
-        <th>
-            <a href="../02-Arrays">02-Arrays &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Check Prime Number](./CheckPrime.md) | [02-Arrays >>](../02-Arrays/00StartHere.md)

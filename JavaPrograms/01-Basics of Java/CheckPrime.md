@@ -6,7 +6,7 @@
 Check if the given number is prime or not.
 
 
-## Important Definitation:
+## Important Definition:
 
 **Prime Number** : A number is prime if it is divisible of itself and 1, otherwise not.
 
@@ -73,14 +73,4 @@ public class CheckPrime {
 //    }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./FunctionOverloading.md">&lt;&lt; Overloading Functions</a>
-        </th>
-        <th>
-            <a href="./Revision.md">Some Random Question &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Overloading Functions](./FunctionOverloading.md) | [Some Random Questions >>](./Revision.md)

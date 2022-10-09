@@ -5,7 +5,7 @@
 To calculate the factorial of given number.
 
 
-## Important Definitation:
+## Important Definition:
 
 **Factorial** : A number multiplied with all the numbers from 1 to N(for which we want to calculate Factorial).
 
@@ -52,14 +52,4 @@ public class Factorial {
     }
 }
 ```
-
-<table>
-    <tr>
-        <th>
-            <a href="./MaxMin.md">&lt;&lt; Maximum And Minimum</a>
-        </th>
-        <th>
-            <a href="./VarArgs.md">Variable Arguement &gt;&gt;</a>
-        </th>
-    </tr>
-<table>
+### [<< Maimum And Minimum](./MaxMin.md) | [Variable Arguement >>](./VarArgs.md)
