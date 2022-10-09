@@ -4,7 +4,7 @@ This are the question which cover the cocepts which I had learned and implemente
 
 ## I had divided this whole process of learning topic wise.
 
-### [01-Basics of Java](JavaPrograms/01-Basics%20of%20Java/00StartHere.md)
+### [01-Basics of Java](JavaPrograms/01-Basics-of-Java/00StartHere.md)
 ### [02-Arrays](JavaPrograms/02-Arrays/00StartHere.md)
 ### [03-Linear Search](JavaPrograms/03-Linear%20Search/00StartHere.md)
 ### [04-Binary Search](JavaPrograms/04-Binary%20Search/00StartHere.md)
